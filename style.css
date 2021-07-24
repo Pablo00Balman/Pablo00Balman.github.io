@@ -106,7 +106,8 @@ h4{
 }
 
 #video{
+
     text-align: center;
     padding: 50px;
-    clear: both;
+    margin: 10;
 }
