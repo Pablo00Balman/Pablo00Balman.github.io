@@ -1,0 +1,59 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(247, 247, 247);
+    background-color: rgb(68, 77, 86);
+}
+
+
+#grandeTitulo{
+    text-align: center;
+}
+
+#A{
+    padding-left: 210px;
+    float: left;
+}
+
+#B{
+    padding-right: 210px;
+    float: right;
+}
+
+#N1{
+    width: 160px;
+    height: 50px;
+}
+
+#N2{
+    width: 160px;
+    height: 50px;
+}
+
+#botao{ 
+    clear: both;
+    text-align: center;
+
+}
+
+#quadrado{
+    font-size: large;
+    background-color: rgb(99, 86, 240);
+    color: white;
+    width: 90px;
+    height: 50px;
+}
+
+#resultado{
+    text-align: center;
+}
+
+#R{
+    text-align: center;
+    width: 300px;
+    height: 30px;
+}
+
+#teorema{
+    text-align: center;
+    color: white;
+}
