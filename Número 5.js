@@ -1,4 +1,4 @@
-function celsius()
+function salario()
  {
     let A = document.getElementById("N1").value;
     let B = document.getElementById("N2").value;
