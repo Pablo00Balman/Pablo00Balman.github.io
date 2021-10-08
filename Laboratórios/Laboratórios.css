@@ -1,0 +1,45 @@
+body{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    background: linear-gradient(to right, #000000, #687786);
+}
+
+
+#grandTitulo{
+    text-align: center;
+}
+
+#A{
+    padding-left: 200px;
+    font-size: large;
+    text-align: center;
+   float: left;
+}
+
+#B1{
+    border: 4px solid #000;
+}
+
+#B{
+    padding-right: 200px;
+    font-size: large;
+    text-align: center;
+    float: right;
+ }
+ 
+ #B2{
+    border: 4px solid #000;
+ }
+
+#C{
+    font-size: large;
+    text-align: center;
+    clear: both;
+ }
+ 
+ #B3{
+    border: 4px solid #000;
+ }
+
+
+ 

@@ -1,0 +1,18 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    background: linear-gradient(to right, #000000, #687786);
+}
+
+#titulo{
+    text-align: center;
+    color: white;
+}
+
+#botoes{
+    text-align: center;
+}
+
+.B{
+    width: 150px;
+    height: 50px; 
+}
