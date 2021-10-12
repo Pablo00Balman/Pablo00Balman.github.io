@@ -36,5 +36,6 @@ function IMC()
     }
        
     document.getElementById("resultado").value = txt;
+    console.log(txt);
 
 }
