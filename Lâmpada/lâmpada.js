@@ -1,4 +1,5 @@
 let lamp = document.getElementById ("lamp");
+let caixa = document.getElementById("caixa");
 let aux = false;
 
 function liga(){
@@ -26,6 +27,3 @@ function quebra () {
 lamp.addEventListener('dblclick', quebra);
 lamp.addEventListener("mouseover", liga);
 lamp.addEventListener("mouseleave", desliga)
-
-
-

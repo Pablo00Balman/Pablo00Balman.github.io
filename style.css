@@ -23,6 +23,13 @@ header{
     /**text-shadow: 3px 3px 3px grey;**/
 }
 
+#links{
+    font-size: 17px;
+    text-align: center;
+    padding: 10px, 0px, 10px, 0px;
+    margin: 0px, 10px, 0px, 0px;
+}
+
 #boas_vindas{
     margin: 0;
     padding: 10px 10px 5px 8px;
