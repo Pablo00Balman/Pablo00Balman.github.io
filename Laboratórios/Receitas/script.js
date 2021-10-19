@@ -73,7 +73,7 @@ function montaDiv(receita) {
     //--------------------
     let ul = document.createElement("ul");
 
-    for(let i = 0; i < receita.preparo.length; i++) {
+    for(let i = 0; i < receita.ingredientes.length; i++) {
         
         let tituloPreparo = document.createElement("li");
         let tituloPreparoText = document.createTextNode(receita.ingredientes[i]);
