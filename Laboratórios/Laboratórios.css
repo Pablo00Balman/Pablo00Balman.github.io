@@ -32,14 +32,29 @@ body{
  }
 
 #C{
+    padding-left: 200px;
     font-size: large;
     text-align: center;
-    clear: both;
+    float: left;
  }
  
  #B3{
     border: 4px solid #000;
  }
 
+ #D{
+    padding-right: 200px;
+    font-size: large;
+    text-align: center;
+    float: right;
+ }
+
+ #B4{
+    border: 3px solid #000;
+    width: 410px; /* width of container */
+    height: 150px; /* height of container */
+    object-fit: cover;
+    border: 5px solid black
+ }
 
  

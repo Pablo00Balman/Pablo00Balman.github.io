@@ -1,0 +1,55 @@
+body{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: rgb(78, 40, 1);
+}
+
+img{
+    border-width: medium;
+  border-style: solid;
+  border-color: #000;
+}
+
+#caixa{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+#logo{
+    max-width: 100px;
+    width: auto;
+    height: 100px;
+    height: auto;
+}
+
+#imagem{
+    text-align: center;
+}
+
+#caixa{
+    color: black;
+    border-radius: 30px;
+    background-color: white;
+}
+
+
+
+.receita1{
+    float: left;
+    
+}
+
+.receita2{
+    float: right;
+    text-align: left;
+    /*padding-left: 5%;
+    padding-right: 7%;*/
+    padding-top: 5%;
+}
+
+.br{
+    clear: both;
+}
