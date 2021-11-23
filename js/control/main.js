@@ -62,17 +62,11 @@ document.addEventListener("click", (event) =>{
         (event.target.matches("#menu button"))
     ) 
     {
-        let childFood = event.target;
-
-        let foodId = event.target.parentNode;
+        let foodId = parseInt(event.target.parentNode.id.substr(5));
         let updatedFood = view.save();
+        console.log(foodId)
         foods.update(foodId, updatedFood);
-        console.log(dataset)
-
 
         view.createItems(foods.listFood(dataset));
-          
-        
-
     }
 })
