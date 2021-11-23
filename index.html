@@ -1,166 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-	<head>
-
-	<link rel="stylesheet" type="text/css" href="style.css">
-
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
-
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>
-Primeiro Site
-</title>
-
-<link rel="icon" href="icone.jpg"/>
-
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imgs/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./css/estilo.css">
+    <script src="./js/control/main.js" type="module"></script>
+    <title>Menu</title> 
 </head>
+<body>
+    <div class="container">
+        <h1 class="mt-5 text-center">Menu</h1>
+        <button id="recarregar">Recarregar</button>
 
+        <form id="formFood">
+            <label for="food-name">Nome</label>
+            <input type="text" id="food-name" name="name">
+          
+            <label for="food-image">Image</label>
+            <input type="text" id="food-image" name="image">
+          
+            <button type="button">Fechar</button>
+            <button id="save-food" type="submit">Confirmar</button>
+        </form>
 
-<body> 
-	
-<div class="container">
+        <section id="menu">
+            <!-- receberá dinamicamente os itens de menu -->
+        </section>
 
-	<header id="banner_inicial">	
-
-	<img src="LOGO.jpeg"  width="20%"  alt="Logo" title="Nossa marca">
- 	
-	<h1>
-	Primeiro Site
-	</h1>
-
-	<h3 id="nome">
-	<br><i>Por Pablo Balman	<br><small><sub>20/01/21</sub></small></i>
-	</h3>
-
-	</header>
-
-<hr>
-
-	<div id="boas_vindas">	
-
-	<p><br>Este é o meu <i>primeiro site</i>, muito obrigado pela atenção.</p><br>
-	<p>	Esse site é apenas um teste para que eu, <em>Pablo</em> <i>Balman</i>, aprenda os<br> conceitos e mecânismos da programação de sites para a internet.</p><br>
-	<p><b>Portanto, desconsidere as informações desse site ou a qualidade do mesmo.</b></p><br>
+        
+    <div>
     
-	</div>
-
-<hr>	
-
-<br>
-
-<div id="links">
-		Link do <a href="#google"><i>GOOGLE</i></a>  &nbsp; | &nbsp;
-		Jogue o jogo do <a href="Primeiro Site/dino.html"  ><i>Dino</i></a> &nbsp; | &nbsp;
-		Calcule o seu <a href="IMC/IMC.html"><i>IMC</i></a> &nbsp; | &nbsp;
-		Apenas uma <a href="Lâmpada/lâmpada.html"><i>Lâmpada</i></a>💡 &nbsp; | &nbsp;
-		CEFET: <a href="Laboratórios/Laboratorios.html"><i>Laboratórios</i></a> &nbsp; | &nbsp;
-        <a href="Primeiro Site/contato.html"><i>CONTATO</i></a> &nbsp; | &nbsp;
-		Acesse o <a href="Primeiro Site/sobre nós.html"><i>Sobre nós   </i></a> 
-</div>
-
-<br>
-
-<hr>
-
-	<div id="testes_sintaxe"> 	
-
-	<br>
-	<h3> TESTES VARIADOS </h3>
-	<p><br><small>Agora vou escrever uma coisinha bem pequenininha só para testar</small></p>
-	<p>E agora eu vou escrever uma coisa <sub>lá em baixo</sub>, só para testar também ;)</p>
-	<p>É um bocado de teste, hein. Agora eu vou tentar escrever uma coisa<sup> lá em cima, para ver se dar certo</sup></p>
-	<p>Agora vou tentar escrever alguma coisa em negrito, só que usando a tag <strong>strong</strong>. Deu certo?
-
-</div>	
-
-<br><br>
-
-<hr>
-
-<div id="listas">
-
-<br><h3>LISTAS E SUAS VARIAÇÕES:</h3><br>
-
-
-<div id="listas_ordenadas">
-
-<h4><i>Listas ordenadas</i></h3>
-
-<p> Agora eu vou tentar numerar, em ordem,<b>todas</b> as escolas em que eu já estudei <br>na vida a partir do <i>1<sup>a</sup> do fundamental.</i>  Vamos à elas: <br><br>
-
-<ol type="I">
-	<li>Escola SESI</li>
-	<li>Colégio Nossa Senhora das Mercês</li>
-	<li>Colégio Estadual Júlio Salusse<small><b><sub>  esse foi o melhor</sub></b></small></li>
-	<li>CEFET</li><br>
-</ol>
-
-<p id="instrumentos">Agora vou ordernar alguns dos <i>smartphones</i> que eu tive durante a minha vida:
-
-<ol type="a">
-	<li>Samsung J2<small><sub> ruinzão</sub></small></l>
-	<li>Motorola G3</li>
-	<li>MOTO C Plus</li>
-	<li>Samsung 01 Core <i><small>**mais recente**</small></i></li><br>
-
-</ol>
-
-</div>
-
-<div id="listas_desordenadas">
-
-<h4><i>Listas desordenadas</i></h4><br>
-
-<p>Agora são as listas desorndenadas, vou enumerar aqui os instrumentos musicais que eu tenho o conhecimento para tocar:</p>
-
-<ul>
-	<li>Piano <small><sub><i>esse eu sou melhor</i></sub></small></li>
-	<li>Violão </li>
-	<li>Kalimba</li>
-	<li>Gaita de boca</li>
-
-</ul>
-
-<p>Depois, se tiver alguma ideia, tenta colocar lista dentro de lista, é a mesma sintaxe, parecida com o uso de "if" e "else" em C++.
-
-</div>
-
-<div id="link">
-
-	<p id="explicação_listas">Bom, então é isso, depois eu tento mais possibilidades de lista. Só muda mesmo a numeração e a ordem, usando <b><i>"Type" ou "start".</b></i><br><br><br>
-
-<hr>
-
-
-
-<br>
-<p  id="google"><a href="https://www.google.com/" target="_blank">CLIQUE AQUI</a> PARA ABRIR O GOOGLE</p>
-<br>
-
-<hr>
-
-</div>
-
-<footer id="agradecimento">
-
-<br><br><br><b>Muito obrigado pelo acesso :)</b><br><br>
-
-<hr>
-
-</footer>
-
-<!--
-<div id="video">
-	<video width="500" height="300" controls="controls">
-	<source src="Tocando violão.mp4" type="video/mp4">
-	<object data="" width="500" height="300">
-	<embed width="320" height="240" src="Tocando violão.mp4">
-	</video>
-</div>
--->
-
+    
+</body>
 </html>
