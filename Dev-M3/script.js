@@ -17,7 +17,7 @@ window.onload = function () {
         {
             const roupas = JSON.parse(this.responseText);
             localStorage.setItem("Json",JSON.stringify(roupas))
-            carregaPagina(roupas);
+            carregaPagina();
         }
     }
     xhttp.open("GET", url)
