@@ -16,8 +16,8 @@ window.onload = function () {
         if(this.readyState == 4 && this.status == 200)
         {
             const roupas = JSON.parse(this.responseText);
-            carregaPagina(roupas);
             localStorage.setItem("Json",JSON.stringify(roupas))
+            carregaPagina(roupas);
         }
     }
     xhttp.open("GET", url)
