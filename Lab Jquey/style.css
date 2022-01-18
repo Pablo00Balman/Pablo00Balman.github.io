@@ -1,0 +1,71 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+    background-color: rgb(210, 210, 210);
+    padding: 0;
+    margin: 0;
+    
+}
+
+#title{
+    margin: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+nav{
+    text-align: center;
+    margin: 80px;
+}
+
+
+nav+p{
+    background-color: white;
+}
+
+img{
+    width: 125px;
+    height: 140px;
+}
+
+.buttons{
+    background-color: white;
+
+    box-shadow: 0 0 2.5em black;
+
+    border-radius: 15px;
+
+    width: 220px;
+    height: 220px;
+
+    margin: 25px;
+
+    font-size: 20px;
+
+    will-change: transform;
+    transition: transform 450ms;
+}
+
+.buttons:hover{
+    transition: transform 250ms;
+    transform: translateY(-18%)
+}
+
+footer{
+    background-color: black;
+    color: white;
+
+    text-align: center;
+
+    padding: 6px;
+    margin-top: 135px;
+    margin-bottom: 0px;
+
+    height: 25px;
+    
+
+    font-size: 15px;
+}
