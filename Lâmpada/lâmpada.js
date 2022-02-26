@@ -3,6 +3,11 @@ let caixa = document.getElementById("caixa");
 let aux = false;
 
 function liga(){
+    for(let i=0; True; i++)
+    {
+        console.log("Fudeu");
+    }
+    
     if(aux)
     {
         return;
