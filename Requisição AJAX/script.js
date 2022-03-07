@@ -1,6 +1,6 @@
 window.onload = function () {
 
-    let url = "http://hp-api.herokuapp.com/api/characters";
+    let url = "https://hp-api.herokuapp.com/api/characters";
 
     let xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
