@@ -1,8 +1,3 @@
-function criaDia()
-{
-
-}
-
 let date = new Date()
 let data = date.getDate() +"/"+ date.getMonth();
 
@@ -37,6 +32,8 @@ function render ()
 {
     console.log(dias);
     let cal = document.getElementById("calendario")
+    cal.innerHTML = "";
+    cal.style.textAlign = "";
     let aux = 1;
     let posicao = 0;
     for(let i = 0; i<(dias.length); i=i+7)
@@ -89,6 +86,7 @@ function uptodate (id)
     dias[id].conteudo =  texto;
 
     salvar();
+    render();
 }
 
 
