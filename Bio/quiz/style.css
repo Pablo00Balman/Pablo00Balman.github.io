@@ -88,3 +88,7 @@ button:hover{
     transition: transform 250ms;
     transform: translateY(-18%)
 }
+
+img{
+    border-radius: 20px;
+}
