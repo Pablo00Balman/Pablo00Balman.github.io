@@ -9,9 +9,19 @@ let questions = [["1. Na ecologia, os níveis de organização existentes são:"
 
 var Q = 0;
 
+var acertos = 0;
+
 exibe(Q);
 
 function exibe (N) {
+
+    if(Q == questions.length)
+    {
+        document.querySelector("#content").innerHTML = 
+
+        `<h1>Você acertou ${acertos} de ${questions.length} questões</h1>
+        <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2020/12/preservacao-ambiental.jpg" alt="">`
+    }  
 
     if(N == 3)
     {
@@ -39,6 +49,8 @@ function confere (N) {
     {
         document.getElementById("r"+ N).style.backgroundColor = "green";
         document.getElementById("r"+ N).style.color = "white";
+
+        acertos++;
     }
     else{
         document.getElementById("r"+ questions[Q][5]).style.backgroundColor = "green";
@@ -50,8 +62,9 @@ function confere (N) {
 
      Q++
 
-    document.getElementById("p").innerHTML = `
-    
-        <button onclick="exibe(`+ Q +`)">Próximo</button>
-    `
+        document.getElementById("p").innerHTML = `
+        
+            <button onclick="exibe(`+ Q +`)">Próximo</button>
+        `
+   
 }
