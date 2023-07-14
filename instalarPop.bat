@@ -4,7 +4,7 @@ start "" https://iso.pop-os.org/22.04/amd64/intel/32/pop-os_22.04_amd64_intel_32
 
 
 diskpart
-select disk 1
+select disk 2
 clean
 create part pri 
 select part 1
